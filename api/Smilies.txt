@@ -1,0 +1,110 @@
+一、常规Smilies
+根目录 ./images/smilies/
+实际文件名	discuz字符
+sweatingbullets.gif	:sweating:
+16.gif	:unhappy:
+silence.gif	:silence:
+24.gif	:armyman:
+31.gif	:coffee:
+noidea.gif	:noidea:
+nugget.gif	:nugget:
+shifty.gif	:shifty:
+09.gif	:sleepy:
+34.gif	:flower:
+19.gif	:bitter:
+43.gif	:letter:
+chris.gif	:pirate:
+07.gif	:shame:
+lucky.gif	:lucky:
+angry.gif	:yumen:
+11.gif	:sweat:
+15.gif	:smile:
+35.gif	:flowe:
+17.gif	:black:
+knife.gif	:knife:
+21.gif	:drunk:
+23.gif	:laugh:
+41.gif	:phone:
+38.gif	:break:
+37.gif	:heart:
+05.gif	:glass:
+04.gif	:glare:
+icon18.gif	:angry:
+blink.gif	:blink:
+icon10.gif	:faint:
+icon20.gif	:alien:
+33.gif	:drug:
+32.gif	:rice:
+30.gif	:doll:
+icon12.gif	:roll:
+36.gif	:kiss:
+39.gif	:wave:
+42.gif	:time:
+46.gif	:moon:
+47.gif	:good:
+icon11.gif	:love:
+cool.gif	:cool:
+geek.gif	:geek:
+cake.gif	:cake:
+bb.gif	:shit:
+40.gif	:gift:
+26.gif	:cold:
+06.gif	:weep:
+icon19.gif	:hide:
+18.gif	:sars:
+03.gif	:envy:
+20.gif	:puke:
+49.gif	:hand:
+12.gif	:fury:
+10.gif	:tear:
+icon15.gif	:heng:
+08.gif	:shut:
+01.gif	:brow:
+mad.gif	:mad:
+45.gif	:sun:
+48.gif	:bad:
+god.gif	:god:
+laf.gif	:laf:
+thumbsup.gif	:zan:
+25.gif	:run:
+27.gif	:pig:
+28.gif	:cat:
+29.gif	:dog:
+icon16.gif	:cry:
+icon14.gif	:phd:
+22.gif	:han:
+icon17.gif	:eee:
+cold.gif	:sad:
+lol.gif	:lol:
+44.gif	:tv:
+02.gif	:ww:
+13.gif	;P
+tongue.gif	:P
+sad.gif	:(
+smile.gif	:)
+14.gif	:D
+wink.gif	;)
+shocked.gif	:o
+二、表情列表
+$n = array('兔斯基', '悠嘻猴', '洋葱头', '淘宝旺旺', '小女孩', '蛋黄', '泡泡', '小窝头', '企鹅', '可爱猪',"微博",'微信', '其它');
+
+$s = array(
+	range(401, 432),
+	array_merge(range(1, 70),range(351,361)),
+	range(71, 142),
+	range(201, 287),
+	range(3261, 3282),
+	range(3191, 3230),
+	range(3785, 3839),
+	range(151, 190),
+	range(301, 341),
+	range(288, 299),
+	range(4000,4083),
+	range(5000,5032),
+	array(789, 1133, 3100, 3161, 3244, 3245, 3246, 3247, 3248, 3249, 3258, 3784)
+);
+
+路径 ./images/bz/
+实际文件名为数字
+discuz字符为：除了微信、微博的字符分别为wx、wb外，其他都是bz，即格式为:bzxxx:或:wxxxx:,:wbxxx:,xxx指代数值
+微信微博的图标未来可能继续增加。也有可能增加其他类型的图标
